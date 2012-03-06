@@ -154,13 +154,13 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">536</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">412</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">121</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">125</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">45</XPD:ATTR>
 <XPD:REF name="Model">peDQCnGIlE+4/DQUqi+ptAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="E7lehitYZEiQoZQ3lRg5rgAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="W20NdvdtC0m4V9S3F3OiHgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Abrir Menu</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Acessar Menu</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="xOD8mFGee02Zi81ZZNXt4QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -259,7 +259,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="C9m64wyJJ0aXp/6sUodo7wAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="j6HpwgXc5ES28FXqAL2TKgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Tela de Login</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Fazer Login</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="FM9L9hayIUG/re7DVT4HOgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -325,7 +325,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="w0IT4e9mwEqJQCp0sx2LWwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="wCWNhWwV3kWvDMEQUzyuhQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Manter Configurações</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Alterar Configurações</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="w4oelbOY3kycOySkTSkHFAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1132,7 +1132,7 @@
 <XPD:REF name="Supplier">qd1ltSDrXE2WI7UvQHY5WwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[11]" type="UMLUseCase" guid="peDQCnGIlE+4/DQUqi+ptAAA">
-<XPD:ATTR name="Name" type="string">Abrir Menu</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Acessar Menu</XPD:ATTR>
 <XPD:REF name="Namespace">01G6ChrLh0qabKMEhShBBwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">b0rXIU22Pkm8HWMXNoJWHAAA</XPD:REF>
@@ -1174,7 +1174,7 @@
 <XPD:REF name="Includes[0]">2nToGwH+uUiGgyoxEJqtqAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[14]" type="UMLUseCase" guid="labEQII23U+sB2hxQsUJTwAA">
-<XPD:ATTR name="Name" type="string">Tela de Login</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Fazer Login</XPD:ATTR>
 <XPD:REF name="Namespace">01G6ChrLh0qabKMEhShBBwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">YZ3+yjLgyEyKQGI+dlEn3QAA</XPD:REF>
@@ -1218,7 +1218,7 @@
 <XPD:REF name="Includes[0]">JozBRW01T0mEuDRHK0OGrwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[18]" type="UMLUseCase" guid="tjXAXfiwP02I3mvG+Y1LDgAA">
-<XPD:ATTR name="Name" type="string">Manter Configurações</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Alterar Configurações</XPD:ATTR>
 <XPD:REF name="Namespace">01G6ChrLh0qabKMEhShBBwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">wXvnoouFkUiF5UCPVdGBXgAA</XPD:REF>
