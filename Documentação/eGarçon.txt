@@ -2,7 +2,7 @@ eGarcon
 
 atores:
 cliente	- tem acesso ao menu, com o sem informações de preço, e outros detalhes configuráveis pelo administrador
-	(o cliente aqui é o cliente do estabelecimento do stalkeholder)
+	(o cliente aqui é o cliente do estabelecimento)
 
 garçom 	- tem acesso ao menu que o cliente tem
 		- acesso a lista de pedidos que será encaminhada a cozinha
@@ -24,8 +24,9 @@ O q os stakeholders necessitam inicialmente?
 
 O que vem em seguida?
 	- Os pedidos sejam registrados e transferidos para uma maquina na cozinha.
+	- Um pedido estará relacionado a uma mesa.
 	- Avisar ao garçon que o pedido já está pronto.
-	- Ao aceitar o pedido, dê baixa nos ingredientes automaticamente
+	- Ao aceitar o pedido, dê baixa nos ingredientes automaticamente.
 	->atualizando o menu no caso de falta de produtos
 	->*lançando um aviso para o administrador (o aviso tem q ser dado antes mesmo que o produto esteja em falta,
 	a quantidade minima é configurada pelo administrador.
