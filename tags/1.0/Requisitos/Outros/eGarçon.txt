@@ -1,0 +1,45 @@
+eGarcon
+
+atores:
+cliente	- tem acesso ao menu, com o sem informações de preço, e outros detalhes configuráveis pelo administrador
+	(o cliente aqui é o cliente do estabelecimento)
+
+garçom 	- tem acesso ao menu que o cliente tem
+		- acesso a lista de pedidos que será encaminhada a cozinha
+		
+cozinha - tem acesso a lista de pedidos
+		- tem a possibilidade de acesso a receitas
+		- ao fazer uma receita, já da baixa no estoque de ingredientes, atualizando o menu no caso de falta de algum ingrediente (uma fruta para um suco)
+		
+administrador	- acesso a estoque (insere, deleta e altera dados)				
+				- acesso ao menus (sucos, sanduiches, pratos franceses caríssimos, etc) e a posibilidade de configurá-los (insere, deleta e altera dados)
+				- acesso a receitas (insere, deleta e altera dados)
+				- acesso ao controle financeiro (controle de pedidos, receita liquida, etc.)
+				
+
+Histórias e questões:
+O q os stakeholders necessitam inicialmente?
+	- Um menu digital com imagens e descrição dos pratos (preço, ingredientes, molhos) para que os clientes selecionem seus pedidos.
+	Mesmo servindo apenas como catálogo digital já serve para promover a empresa.
+
+O que vem em seguida?
+	- Os pedidos sejam registrados e transferidos para uma maquina na cozinha.
+	- Um pedido estará relacionado a uma mesa.
+	- Avisar ao garçon que o pedido já está pronto.
+	- Ao aceitar o pedido, dê baixa nos ingredientes automaticamente.
+	->atualizando o menu no caso de falta de produtos
+	->*lançando um aviso para o administrador (o aviso tem q ser dado antes mesmo que o produto esteja em falta,
+	a quantidade minima é configurada pelo administrador.
+	- 
+	
+	*para o funcionamento completo dependerá da implementação do módulo administrador, mais adiante.
+			
+			
+Casos de uso
+tela de login - permitindo reconhecer os perfils, administrador, garçom, conzinheiro  (cliente) [haverá uma opção de fazer login, para os outros atores].
+
+tela de cadastro de produtos - onde o administrador poderá incluir/alterar um produto do menu.
+
+tela de menu - onde serão exibidos os produtos para seleção.
+
+tela de pedido - onde estão listados todos os produtos do pedido.
